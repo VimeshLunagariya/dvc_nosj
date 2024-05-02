@@ -1,0 +1,909 @@
+{
+    "status": 1,
+    "status_code": 200,
+    "msg": "App details",
+    "data": {
+        "app": {
+            "id": 22,
+            "name": "Dating Video Chat App",
+            "secret_key": "8ff0a360d03f46881691a56eaecde600",
+            "is_facebook": 0,
+            "is_adx": 1,
+            "is_admob": 0,
+            "status": 1,
+            "created_at": "2024-05-02T05:51:06.000000Z",
+            "updated_at": "2024-05-02T05:51:09.000000Z",
+            "is_check_screen": 0,
+            "alias": "Vatiya"
+        },
+        "app_units": [
+            {
+                "id": 161,
+                "app_id": 22,
+                "name": "Unit 1",
+                "created_at": "2024-05-02T05:51:17.000000Z",
+                "updated_at": "2024-05-02T05:51:17.000000Z"
+            }
+        ],
+        "ad_units": [
+            {
+                "id": 69,
+                "app_id": 22,
+                "app_unit_id": 161,
+                "banner_id": "ca-app-pub-3940256099942544/6300978111",
+                "interstitial_id": "ca-app-pub-3940256099942544/1033173712",
+                "rewarded_interstitial_id": "",
+                "rewarded_id": "ca-app-pub-3940256099942544/5224354917",
+                "native_id": "ca-app-pub-3940256099942544/2247696110",
+                "app_open_id": "ca-app-pub-3940256099942544/9257395921",
+                "facebook_banner_id": "",
+                "facebook_interstitial_id": "12341234",
+                "facebook_rewarded_id": "",
+                "facebook_native_id": "12341234",
+                "qureka_id": "",
+                "created_at": "2024-05-02T05:51:17.000000Z",
+                "updated_at": "2024-05-02T05:51:17.000000Z"
+            }
+        ],
+        "screens": [
+            {
+                "id": 409,
+                "app_id": "22",
+                "app_unit_id": 161,
+                "name": "SplashScreen",
+                "screen_key": "f001b5572dc4bcec9514c595827fc19e",
+                "status": 1,
+                "created_at": "2024-05-02T05:51:17.000000Z",
+                "updated_at": "2024-05-02T05:51:17.000000Z",
+                "is_facebook": 1,
+                "is_google": 1,
+                "advertisements": [
+                    {
+                        "id": 2972,
+                        "screen_id": "409",
+                        "name": "Banner",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 2973,
+                        "screen_id": "409",
+                        "name": "Interstitial",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 2974,
+                        "screen_id": "409",
+                        "name": "RewardedInterstitial",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 2975,
+                        "screen_id": "409",
+                        "name": "Rewarded",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 2976,
+                        "screen_id": "409",
+                        "name": "Native",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 2977,
+                        "screen_id": "409",
+                        "name": "AppOpen",
+                        "status": 1,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 2978,
+                        "screen_id": "409",
+                        "name": "BackButton",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 2979,
+                        "screen_id": "409",
+                        "name": "Qureka",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    }
+                ]
+            },
+            {
+                "id": 410,
+                "app_id": "22",
+                "app_unit_id": 161,
+                "name": "DashboardScreen",
+                "screen_key": "1b0cd7ac863a9e1d76adcc04952707c7",
+                "status": 1,
+                "created_at": "2024-05-02T05:51:17.000000Z",
+                "updated_at": "2024-05-02T05:51:17.000000Z",
+                "is_facebook": 1,
+                "is_google": 1,
+                "advertisements": [
+                    {
+                        "id": 2980,
+                        "screen_id": "410",
+                        "name": "Banner",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 2981,
+                        "screen_id": "410",
+                        "name": "Interstitial",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 2982,
+                        "screen_id": "410",
+                        "name": "RewardedInterstitial",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 2983,
+                        "screen_id": "410",
+                        "name": "Rewarded",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 2984,
+                        "screen_id": "410",
+                        "name": "Native",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 2985,
+                        "screen_id": "410",
+                        "name": "AppOpen",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 2986,
+                        "screen_id": "410",
+                        "name": "BackButton",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 2987,
+                        "screen_id": "410",
+                        "name": "Qureka",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    }
+                ]
+            },
+            {
+                "id": 411,
+                "app_id": "22",
+                "app_unit_id": 161,
+                "name": "DidChangeApp",
+                "screen_key": "cf5182ba97327decb4adaa0f3c6aad23",
+                "status": 1,
+                "created_at": "2024-05-02T05:51:17.000000Z",
+                "updated_at": "2024-05-02T05:51:17.000000Z",
+                "is_facebook": 1,
+                "is_google": 1,
+                "advertisements": [
+                    {
+                        "id": 2988,
+                        "screen_id": "411",
+                        "name": "Banner",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 2989,
+                        "screen_id": "411",
+                        "name": "Interstitial",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 2990,
+                        "screen_id": "411",
+                        "name": "RewardedInterstitial",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 2991,
+                        "screen_id": "411",
+                        "name": "Rewarded",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 2992,
+                        "screen_id": "411",
+                        "name": "Native",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 2993,
+                        "screen_id": "411",
+                        "name": "AppOpen",
+                        "status": 1,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 2994,
+                        "screen_id": "411",
+                        "name": "BackButton",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 2995,
+                        "screen_id": "411",
+                        "name": "Qureka",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    }
+                ]
+            },
+            {
+                "id": 412,
+                "app_id": "22",
+                "app_unit_id": 161,
+                "name": "GetStartedScreen",
+                "screen_key": "b6d9b10ebac871b8d0765f599abf86af",
+                "status": 1,
+                "created_at": "2024-05-02T05:51:17.000000Z",
+                "updated_at": "2024-05-02T05:51:17.000000Z",
+                "is_facebook": 1,
+                "is_google": 1,
+                "advertisements": [
+                    {
+                        "id": 2996,
+                        "screen_id": "412",
+                        "name": "Banner",
+                        "status": 1,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 2997,
+                        "screen_id": "412",
+                        "name": "Interstitial",
+                        "status": 1,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 2998,
+                        "screen_id": "412",
+                        "name": "RewardedInterstitial",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 2999,
+                        "screen_id": "412",
+                        "name": "Rewarded",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3000,
+                        "screen_id": "412",
+                        "name": "Native",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3001,
+                        "screen_id": "412",
+                        "name": "AppOpen",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3002,
+                        "screen_id": "412",
+                        "name": "BackButton",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3003,
+                        "screen_id": "412",
+                        "name": "Qureka",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    }
+                ]
+            },
+            {
+                "id": 413,
+                "app_id": "22",
+                "app_unit_id": 161,
+                "name": "HomeScreen",
+                "screen_key": "63f90aab95aba4dc6aa9f3d05624ec53",
+                "status": 1,
+                "created_at": "2024-05-02T05:51:17.000000Z",
+                "updated_at": "2024-05-02T05:51:17.000000Z",
+                "is_facebook": 1,
+                "is_google": 1,
+                "advertisements": [
+                    {
+                        "id": 3004,
+                        "screen_id": "413",
+                        "name": "Banner",
+                        "status": 1,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3005,
+                        "screen_id": "413",
+                        "name": "Interstitial",
+                        "status": 1,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3006,
+                        "screen_id": "413",
+                        "name": "RewardedInterstitial",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3007,
+                        "screen_id": "413",
+                        "name": "Rewarded",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3008,
+                        "screen_id": "413",
+                        "name": "Native",
+                        "status": 1,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3009,
+                        "screen_id": "413",
+                        "name": "AppOpen",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3010,
+                        "screen_id": "413",
+                        "name": "BackButton",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3011,
+                        "screen_id": "413",
+                        "name": "Qureka",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    }
+                ]
+            },
+            {
+                "id": 414,
+                "app_id": "22",
+                "app_unit_id": 161,
+                "name": "NearByProfileScreen",
+                "screen_key": "011318c6d846d5444bf9127b52bd5389",
+                "status": 1,
+                "created_at": "2024-05-02T05:51:17.000000Z",
+                "updated_at": "2024-05-02T05:51:17.000000Z",
+                "is_facebook": 1,
+                "is_google": 1,
+                "advertisements": [
+                    {
+                        "id": 3012,
+                        "screen_id": "414",
+                        "name": "Banner",
+                        "status": 1,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3013,
+                        "screen_id": "414",
+                        "name": "Interstitial",
+                        "status": 1,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3014,
+                        "screen_id": "414",
+                        "name": "RewardedInterstitial",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3015,
+                        "screen_id": "414",
+                        "name": "Rewarded",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3016,
+                        "screen_id": "414",
+                        "name": "Native",
+                        "status": 1,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3017,
+                        "screen_id": "414",
+                        "name": "AppOpen",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3018,
+                        "screen_id": "414",
+                        "name": "BackButton",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3019,
+                        "screen_id": "414",
+                        "name": "Qureka",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    }
+                ]
+            },
+            {
+                "id": 415,
+                "app_id": "22",
+                "app_unit_id": 161,
+                "name": "PremiumVideoScreen",
+                "screen_key": "7defc290a5d66364e07e53d74d0f7801",
+                "status": 1,
+                "created_at": "2024-05-02T05:51:17.000000Z",
+                "updated_at": "2024-05-02T05:51:17.000000Z",
+                "is_facebook": 1,
+                "is_google": 1,
+                "advertisements": [
+                    {
+                        "id": 3020,
+                        "screen_id": "415",
+                        "name": "Banner",
+                        "status": 1,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3021,
+                        "screen_id": "415",
+                        "name": "Interstitial",
+                        "status": 1,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3022,
+                        "screen_id": "415",
+                        "name": "RewardedInterstitial",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3023,
+                        "screen_id": "415",
+                        "name": "Rewarded",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3024,
+                        "screen_id": "415",
+                        "name": "Native",
+                        "status": 1,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3025,
+                        "screen_id": "415",
+                        "name": "AppOpen",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3026,
+                        "screen_id": "415",
+                        "name": "BackButton",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3027,
+                        "screen_id": "415",
+                        "name": "Qureka",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    }
+                ]
+            },
+            {
+                "id": 416,
+                "app_id": "22",
+                "app_unit_id": 161,
+                "name": "NearByScreen",
+                "screen_key": "fbc4e199bccb0cd367f9669549438cb8",
+                "status": 1,
+                "created_at": "2024-05-02T05:51:17.000000Z",
+                "updated_at": "2024-05-02T05:51:17.000000Z",
+                "is_facebook": 1,
+                "is_google": 1,
+                "advertisements": [
+                    {
+                        "id": 3028,
+                        "screen_id": "416",
+                        "name": "Banner",
+                        "status": 1,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3029,
+                        "screen_id": "416",
+                        "name": "Interstitial",
+                        "status": 1,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3030,
+                        "screen_id": "416",
+                        "name": "RewardedInterstitial",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3031,
+                        "screen_id": "416",
+                        "name": "Rewarded",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3032,
+                        "screen_id": "416",
+                        "name": "Native",
+                        "status": 1,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3033,
+                        "screen_id": "416",
+                        "name": "AppOpen",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3034,
+                        "screen_id": "416",
+                        "name": "BackButton",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3035,
+                        "screen_id": "416",
+                        "name": "Qureka",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    }
+                ]
+            },
+            {
+                "id": 417,
+                "app_id": "22",
+                "app_unit_id": 161,
+                "name": "MessagesScreen",
+                "screen_key": "6c306f2579c59b9695883f7035eb2377",
+                "status": 1,
+                "created_at": "2024-05-02T05:51:17.000000Z",
+                "updated_at": "2024-05-02T05:51:17.000000Z",
+                "is_facebook": 1,
+                "is_google": 1,
+                "advertisements": [
+                    {
+                        "id": 3036,
+                        "screen_id": "417",
+                        "name": "Banner",
+                        "status": 1,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3037,
+                        "screen_id": "417",
+                        "name": "Interstitial",
+                        "status": 1,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3038,
+                        "screen_id": "417",
+                        "name": "RewardedInterstitial",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3039,
+                        "screen_id": "417",
+                        "name": "Rewarded",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3040,
+                        "screen_id": "417",
+                        "name": "Native",
+                        "status": 1,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3041,
+                        "screen_id": "417",
+                        "name": "AppOpen",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3042,
+                        "screen_id": "417",
+                        "name": "BackButton",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3043,
+                        "screen_id": "417",
+                        "name": "Qureka",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    }
+                ]
+            },
+            {
+                "id": 418,
+                "app_id": "22",
+                "app_unit_id": 161,
+                "name": "ChatScreen",
+                "screen_key": "1e9c3e019a09898c88f9e821a95ddd36",
+                "status": 1,
+                "created_at": "2024-05-02T05:51:17.000000Z",
+                "updated_at": "2024-05-02T05:51:17.000000Z",
+                "is_facebook": 1,
+                "is_google": 1,
+                "advertisements": [
+                    {
+                        "id": 3044,
+                        "screen_id": "418",
+                        "name": "Banner",
+                        "status": 1,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3045,
+                        "screen_id": "418",
+                        "name": "Interstitial",
+                        "status": 1,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3046,
+                        "screen_id": "418",
+                        "name": "RewardedInterstitial",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3047,
+                        "screen_id": "418",
+                        "name": "Rewarded",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3048,
+                        "screen_id": "418",
+                        "name": "Native",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3049,
+                        "screen_id": "418",
+                        "name": "AppOpen",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3050,
+                        "screen_id": "418",
+                        "name": "BackButton",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3051,
+                        "screen_id": "418",
+                        "name": "Qureka",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    }
+                ]
+            },
+            {
+                "id": 419,
+                "app_id": "22",
+                "app_unit_id": 161,
+                "name": "ProfileScreen",
+                "screen_key": "9e62246595758e13163a9661add36d6a",
+                "status": 1,
+                "created_at": "2024-05-02T05:51:17.000000Z",
+                "updated_at": "2024-05-02T05:51:17.000000Z",
+                "is_facebook": 1,
+                "is_google": 1,
+                "advertisements": [
+                    {
+                        "id": 3052,
+                        "screen_id": "419",
+                        "name": "Banner",
+                        "status": 1,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3053,
+                        "screen_id": "419",
+                        "name": "Interstitial",
+                        "status": 1,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3054,
+                        "screen_id": "419",
+                        "name": "RewardedInterstitial",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3055,
+                        "screen_id": "419",
+                        "name": "Rewarded",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3056,
+                        "screen_id": "419",
+                        "name": "Native",
+                        "status": 1,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3057,
+                        "screen_id": "419",
+                        "name": "AppOpen",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3058,
+                        "screen_id": "419",
+                        "name": "BackButton",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    },
+                    {
+                        "id": 3059,
+                        "screen_id": "419",
+                        "name": "Qureka",
+                        "status": 0,
+                        "created_at": "2024-05-02T05:51:17.000000Z",
+                        "updated_at": "2024-05-02T05:51:17.000000Z"
+                    }
+                ]
+            }
+        ]
+    }
+}
